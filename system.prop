@@ -1,0 +1,5 @@
+
+ro.hardware.kmsetkey=trustonic
+ro.hardware.gatekeeper=trustonic
+ro.mtk_trustonic_tee_support=1
+ro.crypto.volume.filenames_mode=aes-256-cts
