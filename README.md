@@ -1,35 +1,37 @@
-# Android device tree for Infinix Note 12 (X670)
-
 Blocking checks
-- [x] Correct screen/recovery size
-- [ ] Working Touch, screen (sometimes working, TWRP specific bug, not present in OFRP/PBRP)
-- [x] Backup to internal/microSD
-- [x] Restore from internal/microSD
-- [x] reboot to system
-- [x] ADB
+- [X] Correct screen/recovery size
+- [X] Working Touch, screen
+- [X] Backup to internal/microSD
+- [X] Restore from internal/microSD
+- [X] reboot to system
+- [X] ADB
+
 
 Medium checks
-- [x] update.zip sideload
-- [x] UI colors (red/blue inversions)
-- [x] Screen goes off and on
-- [x] F2FS/EXT4 Support
-- [x] all important partitions listed in mount/backup lists
-- [x] backup/restore to/from external (USB-OTG) storage
-- [x] backup/restore to/from adb (https://gerrit.omnirom.org/#/c/15943/)
-- [x] decrypt /data
-- [x] Correct date
+- [X] update.zip sideload
+- [X] UI colors (red/blue inversions)
+- [X] Screen goes off and on
+- [X] F2FS/EXT4 Support, exFAT/NTFS where supported
+- [X] all important partitions listed in mount/backup lists
+- [X] backup/restore to/from external (USB-OTG) storage
+- [X] backup/restore to/from adb (https://gerrit.omnirom.org/#/c/15943/)
+- [X] decrypt /data
+- [X] Correct date
+
+
 
 Minor checks
-- [x] MTP export
-- [x] reboot to bootloader
-- [x] reboot to recovery
-- [x] reboot to fastbootd (fixed)
-- [x] poweroff
-- [x] battery level
-- [x] temperature
-- [x] input devices via USB (USB-OTG) - keyboard, mouse and disks
-- [x] USB mass storage export
-- [x] set brightness
-- [x] vibrate
-- [x] screenshot
+- [X] MTP export
+- [X] reboot to bootloader
+- [X] reboot to recovery
+- [X] poweroff
+- [X] battery level
+- [X] temperature
+- [X] encrypted backups
+- [X] input devices via USB (USB-OTG) - keyboard, mouse and disks
+- [ ] USB mass storage export (unable to test)
+- [X] set brightness
+- [X] vibrate
+- [X] screenshot
+- [X] partition SD card
 
